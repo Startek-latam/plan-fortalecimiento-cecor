@@ -374,3 +374,5 @@ td.nowrap { white-space: nowrap; }
 @media (max-width: 1100px) { .topnav a { padding: 6px 5px; } .brand { font-size: 14px; letter-spacing: .04em; } }
 .next.four { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); }
 @media (max-width: 640px) { .next.four { grid-template-columns: minmax(0,1fr); } }
+/* Relación de dependencia en revisión (Plan de acciones) */
+.rev { display: inline-block; margin-left: 4px; padding: 1px 6px; border-radius: 999px; font-size: 10.5px; font-weight: 700; letter-spacing: .02em; color: #FFD27A; border: 1px dashed rgba(255,210,122,.6); white-space: nowrap; vertical-align: 1px; }

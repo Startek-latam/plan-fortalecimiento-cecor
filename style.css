@@ -376,3 +376,7 @@ td.nowrap { white-space: nowrap; }
 @media (max-width: 640px) { .next.four { grid-template-columns: minmax(0,1fr); } }
 /* Relación de dependencia en revisión (Plan de acciones) */
 .rev { display: inline-block; margin-left: 4px; padding: 1px 6px; border-radius: 999px; font-size: 10.5px; font-weight: 700; letter-spacing: .02em; color: #FFD27A; border: 1px dashed rgba(255,210,122,.6); white-space: nowrap; vertical-align: 1px; }
+/* Barra de valoración (informe Cloud) */
+.score { display: inline-block; width: 90px; height: 6px; margin-right: 10px; border-radius: 999px; background: rgba(255,255,255,.1); vertical-align: middle; overflow: hidden; }
+.score i { display: block; height: 100%; border-radius: inherit; background: rgba(157,184,255,.55); }
+.score.hi i { background: #4A7EFF; }
